@@ -23,14 +23,14 @@ To setup locally, follow steps as stated below:
 > Note: You can choose to run both above commannds one after the other, to avoid the use of the && operator.
 
 * Create a .env file with your preferred values for the variables in the envsample file
-* It also makes sense to change `BASE_URL` to `DEV_BASE_URL` on line 189 of the `GroupController.js` controller file -
+<!-- * It also makes sense to change `BASE_URL` to `DEV_BASE_URL` on line 189 of the `GroupController.js` controller file -
  ```
  const inviteLink = `${process.env.BASE_URL}/api/v1/group/join/${inviteId}?userId=${userId}`;
  ```
   should be changed to
  ```
  const inviteLink = `${process.env.DEV_BASE_URL}/api/v1/group/join/${inviteId}?userId=${userId}`;
-```
+``` -->
 * To start server in development mode - 
 ` yarn dev`
 
